@@ -1,12 +1,12 @@
 # 🗂️ Data Warehouse Project
 
-Welcome! This is a data warehouse and analytics project I built by following a YouTube tutorial. It demonstrates the process of building a data warehouse and performing basic data analysis using SQL Server.
+Welcome! This is a data warehouse project repository. It demonstrates the process of building a data warehouse and performing basic data analysis using SQL Server.
 
 ---
 
 ## 📌 Project Highlights
 
-- Built using **Medallion Architecture** with **Bronze, Silver, and Gold layers**
+- Built using Medallion Architecture with **Bronze, Silver and Gold layers**
 - Processed data from CSV files (ERP and CRM systems)
 - Created ETL pipelines using SQL
 - Modeled data into fact and dimension tables
@@ -18,13 +18,13 @@ Welcome! This is a data warehouse and analytics project I built by following a Y
 
 ![Data Warehouse Architecture](docs/Data_warehouse_Architecture.png)
 
-### 🔸 Bronze Layer  
+### Bronze Layer  
 Raw data is imported from CSV files into SQL Server.
 
-### 🔹 Silver Layer  
+### Silver Layer  
 Data is cleaned, standardized, and prepared for analysis.
 
-### 🟡 Gold Layer  
+### Gold Layer  
 Data is modeled into a **Star Schema** with fact and dimension tables for reporting.
 
 ---
@@ -47,4 +47,3 @@ Data is modeled into a **Star Schema** with fact and dimension tables for report
 
 All insights are created using simple SQL queries.
 
----
